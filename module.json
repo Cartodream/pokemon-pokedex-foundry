@@ -27,5 +27,6 @@
     }
   ],
   "url": "https://github.com/Cartodream/pokemon-pokedex-foundry",
-  "manifest": "https://raw.githubusercontent.com/Cartodream/pokemon-pokedex-foundry/main/module.json"
+  "manifest": "https://raw.githubusercontent.com/Cartodream/pokemon-pokedex-foundry/main/module.json",
+  "download": "https://github.com/Cartodream/pokemon-pokedex-foundry/archive/main.zip"
 }
