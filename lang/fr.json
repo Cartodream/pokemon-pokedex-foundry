@@ -1,0 +1,19 @@
+{
+  "POKEDEX": {
+    "Title": "Pokédex",
+    "Search": "Rechercher un Pokémon...",
+    "AllTypes": "Tous les types",
+    "SelectPokemon": "Sélectionnez un Pokémon pour voir ses détails",
+    "Height": "Taille",
+    "Weight": "Poids",
+    "BaseExp": "Exp. de base",
+    "Evolution": "Évolution",
+    "NoEvolution": "N'évolue pas",
+    "TypeEffectiveness": "Efficacité des types",
+    "Weaknesses": "Faiblesses",
+    "Resistances": "Résistances",
+    "Immunities": "Immunités",
+    "LearnedMoves": "Capacités apprises",
+    "Level": "Niv."
+  }
+}

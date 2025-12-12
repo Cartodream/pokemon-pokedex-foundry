@@ -1,0 +1,52 @@
+<div class="pokedex-container">
+  <div class="pokedex-header">
+    <h2>Pokédex</h2>
+    <div class="pokedex-filters">
+      <input type="text" id="pokemon-search" placeholder="Rechercher un Pokémon..." />
+      <select id="type-filter">
+        <option value="">Tous les types</option>
+        <option value="Normal">Normal</option>
+        <option value="Feu">Feu</option>
+        <option value="Eau">Eau</option>
+        <option value="Électrik">Électrik</option>
+        <option value="Plante">Plante</option>
+        <option value="Glace">Glace</option>
+        <option value="Combat">Combat</option>
+        <option value="Poison">Poison</option>
+        <option value="Sol">Sol</option>
+        <option value="Vol">Vol</option>
+        <option value="Psy">Psy</option>
+        <option value="Insecte">Insecte</option>
+        <option value="Roche">Roche</option>
+        <option value="Spectre">Spectre</option>
+        <option value="Dragon">Dragon</option>
+        <option value="Ténèbres">Ténèbres</option>
+        <option value="Acier">Acier</option>
+        <option value="Fée">Fée</option>
+      </select>
+    </div>
+  </div>
+  
+  <div class="pokedex-content">
+    <div class="pokemon-list">
+      {{#each pokemon}}
+      <div class="pokemon-entry" data-pokemon-id="{{id}}">
+        <div class="pokemon-number">#{{id}}</div>
+        <div class="pokemon-name">{{nom}}</div>
+        <div class="pokemon-types">
+          {{#each type}}
+          <span class="type-badge type-{{this}}">{{this}}</span>
+          {{/each}}
+        </div>
+      </div>
+      {{/each}}
+    </div>
+    
+    <div class="pokemon-details">
+      <div class="pokemon-details-placeholder">
+        <i class="fas fa-search"></i>
+        <p>Sélectionnez un Pokémon pour voir ses détails</p>
+      </div>
+    </div>
+  </div>
+</div>

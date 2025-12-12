@@ -1,0 +1,32 @@
+{
+  "id": "pokemon-pokedex",
+  "title": "Pokédex",
+  "description": "Module Pokédex complet pour Foundry VTT avec 147 Pokémon",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12"
+  },
+  "authors": [
+    {
+      "name": "Ponch",
+      "discord": "ponch"
+    }
+  ],
+  "esmodules": [
+    "scripts/pokedex.js"
+  ],
+  "styles": [
+    "styles/pokedex.css"
+  ],
+  "languages": [
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "lang/fr.json"
+    }
+  ],
+  "url": "https://github.com/VOTRE_USERNAME/pokemon-pokedex-foundry",
+  "manifest": "https://raw.githubusercontent.com/VOTRE_USERNAME/pokemon-pokedex-foundry/main/module.json",
+  "download": "https://github.com/VOTRE_USERNAME/pokemon-pokedex-foundry/archive/refs/heads/main.zip"
+}
